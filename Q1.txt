@@ -1,0 +1,20 @@
+
+Q1. Explain the DOM and its role in Web development.
+ANSWER: 
+
+The DOM (Document Object Model) is a tree-like structure that represents the content of a web page in a hierarchical form. When a web page is loaded in the browser, the HTML is converted into the DOM by the browser’s engine.
+
+Each element in HTML—like headings, paragraphs, images, buttons—is turned into an object or node in the DOM. These objects can be accessed and manipulated using programming languages like JavaScript.
+
+Role in Web Development:
+
+Dynamic Interactions: JavaScript can interact with the DOM to dynamically change the text, structure, and appearance of elements.
+
+Content Manipulation: Developers can use the DOM to insert, delete, or modify HTML elements and content.
+
+Style Updates: It allows changes in CSS styles through JavaScript for effects like animations or theme changes.
+
+User Interactions: DOM plays a key role in handling events like mouse clicks, keyboard input, and form submissions.
+
+
+In short, the DOM acts as a bridge between HTML content and JavaScript, enabling rich and interactive user experiences.

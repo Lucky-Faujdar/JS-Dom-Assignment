@@ -1,0 +1,21 @@
+Q3. Explain the concept of Event Bubbling in the DOM.
+ANSWER: 
+
+Event bubbling is a behavior in the DOM where an event starts at the target element and then moves upwards through the hierarchy, triggering any event handlers set on the element’s ancestors.
+
+Example:
+
+If a user clicks on a <span> inside a <div>, the click event is first handled by the <span>, then the <div>, then its parent, and so on up to the <body>.
+
+Use Cases:
+
+Enables event delegation by allowing a single listener on a parent to detect actions on child elements.
+
+Helps manage events efficiently, especially in large applications.
+
+
+document.getElementById('outerDiv').addEventListener('click', function() {
+  alert('Div clicked');
+});
+
+If a button inside outerDiv is clicked, the alert will still run due to event bubbling.
